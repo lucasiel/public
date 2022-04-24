@@ -1,6 +1,5 @@
 #! /bin/sh
 echo "ok.. please wait a few minute!"
-sleep 3
 sudo apt-get update -y
 sudo apt-get install make gcc -y
 sudo apt-get install mc -y
