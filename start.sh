@@ -7,7 +7,7 @@ sudo apt-get install mc -y
 sudo apt-get install wget -y
 sudo apt-get install curl -y
 sudo apt-get install build-essential -y
-sudo wget http://www.inet.no/dante/files/dante-1.4.2.tar.gz
+sudo wget -O dante-1.4.2.tar.gz http://www.inet.no/dante/files/dante-1.4.2.tar.gz
 sudo gunzip dante-1.4.2.tar.gz
 sudo tar -xf dante-1.4.2.tar
 cd dante-1.4.2/
