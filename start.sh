@@ -15,8 +15,8 @@ sudo make
 sudo make install
 sudo bash -c "cat <<EOF > /etc/danted.conf
 logoutput: syslog
-internal: eth0 port = 8080
-external: eth0
+internal: ens5 port = 8080
+external: ens5
 external.rotation: same-same
 method: username none
 user.privileged: proxy
